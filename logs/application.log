@@ -1,0 +1,103 @@
+2024-05-22T12:23:06.339+01:00  INFO 1312 --- [productrestapi] [main] com.mahesh.ProductrestapiApplication     : Starting ProductrestapiApplication using Java 17.0.11 with PID 1312 (C:\Users\anil bakkachetti\OneDrive\Desktop\java_springboot_learning\productrestapi\target\classes started by anil bakkachetti in C:\Users\anil bakkachetti\OneDrive\Desktop\java_springboot_learning\productrestapi)
+2024-05-22T12:23:06.348+01:00  INFO 1312 --- [productrestapi] [main] com.mahesh.ProductrestapiApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T12:23:08.086+01:00  INFO 1312 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T12:23:08.237+01:00  INFO 1312 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interface.
+2024-05-22T12:23:09.510+01:00  WARN 1312 --- [productrestapi] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-05-22T12:23:09.564+01:00  INFO 1312 --- [productrestapi] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-05-22T12:23:09.565+01:00  INFO 1312 --- [productrestapi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3083 ms
+2024-05-22T12:23:09.907+01:00  INFO 1312 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-22T12:23:10.698+01:00  INFO 1312 --- [productrestapi] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48e41b5d
+2024-05-22T12:23:10.703+01:00  INFO 1312 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-22T12:23:10.796+01:00  INFO 1312 --- [productrestapi] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T12:23:11.001+01:00  INFO 1312 --- [productrestapi] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-22T12:23:11.128+01:00  INFO 1312 --- [productrestapi] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T12:23:11.975+01:00  INFO 1312 --- [productrestapi] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T12:23:13.993+01:00  INFO 1312 --- [productrestapi] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T12:23:14.002+01:00  INFO 1312 --- [productrestapi] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T12:23:14.604+01:00  WARN 1312 --- [productrestapi] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T12:23:15.399+01:00  INFO 1312 --- [productrestapi] [main] io.undertow                              : starting server: Undertow - 2.3.12.Final
+2024-05-22T12:23:15.417+01:00  INFO 1312 --- [productrestapi] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-05-22T12:23:15.437+01:00  INFO 1312 --- [productrestapi] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-05-22T12:23:15.527+01:00  INFO 1312 --- [productrestapi] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-05-22T12:23:15.651+01:00  INFO 1312 --- [productrestapi] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 8080 (http) with context path '/prodapi'
+2024-05-22T12:23:15.668+01:00  INFO 1312 --- [productrestapi] [main] com.mahesh.ProductrestapiApplication     : Started ProductrestapiApplication in 10.646 seconds (process running for 12.41)
+2024-05-22T12:23:21.267+01:00  INFO 1312 --- [productrestapi] [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-22T12:23:21.269+01:00  INFO 1312 --- [productrestapi] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-22T12:23:21.277+01:00  INFO 1312 --- [productrestapi] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-05-22T12:23:21.495+01:00  INFO 1312 --- [productrestapi] [XNIO-1 task-2] c.m.controller.ProductRestController     : finding product by ID:2
+2024-05-22T12:23:27.007+01:00  INFO 1312 --- [productrestapi] [XNIO-1 task-2] c.m.controller.ProductRestController     : finding product by ID:1
+2024-05-22T12:23:32.163+01:00  INFO 1312 --- [productrestapi] [XNIO-1 task-2] c.m.controller.ProductRestController     : finding product by ID:3
+2024-05-22T12:26:11.041+01:00  INFO 1312 --- [productrestapi] [RMI TCP Connection(6)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-22T12:26:11.048+01:00  INFO 1312 --- [productrestapi] [RMI TCP Connection(6)-127.0.0.1] io.undertow                              : stopping server: Undertow - 2.3.12.Final
+2024-05-22T12:26:11.057+01:00  INFO 1312 --- [productrestapi] [RMI TCP Connection(6)-127.0.0.1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-05-22T12:26:11.063+01:00  INFO 1312 --- [productrestapi] [RMI TCP Connection(6)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T12:26:11.069+01:00  INFO 1312 --- [productrestapi] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-22T12:26:11.103+01:00  INFO 1312 --- [productrestapi] [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-22T12:26:16.623+01:00  INFO 20012 --- [productrestapi] [main] com.mahesh.ProductrestapiApplication     : Starting ProductrestapiApplication using Java 17.0.11 with PID 20012 (C:\Users\anil bakkachetti\OneDrive\Desktop\java_springboot_learning\productrestapi\target\classes started by anil bakkachetti in C:\Users\anil bakkachetti\OneDrive\Desktop\java_springboot_learning\productrestapi)
+2024-05-22T12:26:16.633+01:00  INFO 20012 --- [productrestapi] [main] com.mahesh.ProductrestapiApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T12:26:18.167+01:00  INFO 20012 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T12:26:18.266+01:00  INFO 20012 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interface.
+2024-05-22T12:26:19.630+01:00  WARN 20012 --- [productrestapi] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-05-22T12:26:19.683+01:00  INFO 20012 --- [productrestapi] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-05-22T12:26:19.685+01:00  INFO 20012 --- [productrestapi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2891 ms
+2024-05-22T12:26:20.055+01:00  INFO 20012 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-22T12:26:20.890+01:00  INFO 20012 --- [productrestapi] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@194012a2
+2024-05-22T12:26:20.896+01:00  INFO 20012 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-22T12:26:21.010+01:00  INFO 20012 --- [productrestapi] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T12:26:21.292+01:00  INFO 20012 --- [productrestapi] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-22T12:26:21.437+01:00  INFO 20012 --- [productrestapi] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T12:26:22.284+01:00  INFO 20012 --- [productrestapi] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T12:26:24.921+01:00  INFO 20012 --- [productrestapi] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T12:26:24.931+01:00  INFO 20012 --- [productrestapi] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T12:26:25.554+01:00  WARN 20012 --- [productrestapi] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T12:26:26.639+01:00  INFO 20012 --- [productrestapi] [main] io.undertow                              : starting server: Undertow - 2.3.12.Final
+2024-05-22T12:26:26.669+01:00  INFO 20012 --- [productrestapi] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-05-22T12:26:26.703+01:00  INFO 20012 --- [productrestapi] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-05-22T12:26:26.835+01:00  INFO 20012 --- [productrestapi] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-05-22T12:26:26.971+01:00  INFO 20012 --- [productrestapi] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 8080 (http) with context path '/prodapi'
+2024-05-22T12:26:26.988+01:00  INFO 20012 --- [productrestapi] [main] com.mahesh.ProductrestapiApplication     : Started ProductrestapiApplication in 11.749 seconds (process running for 13.648)
+2024-05-22T12:26:38.812+01:00  INFO 20012 --- [productrestapi] [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-22T12:26:38.813+01:00  INFO 20012 --- [productrestapi] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-22T12:26:38.821+01:00  INFO 20012 --- [productrestapi] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2024-05-22T12:26:38.993+01:00  INFO 20012 --- [productrestapi] [XNIO-1 task-2] c.m.controller.ProductRestController     : finding product by ID:3
+2024-05-22T12:26:45.560+01:00  INFO 20012 --- [productrestapi] [XNIO-1 task-2] c.m.controller.ProductRestController     : finding product by ID:2
+2024-05-22T12:26:50.644+01:00  INFO 20012 --- [productrestapi] [XNIO-1 task-2] c.m.controller.ProductRestController     : finding product by ID:1
+2024-05-22T12:27:44.567+01:00  INFO 20012 --- [productrestapi] [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-22T12:27:44.580+01:00  INFO 20012 --- [productrestapi] [RMI TCP Connection(5)-127.0.0.1] io.undertow                              : stopping server: Undertow - 2.3.12.Final
+2024-05-22T12:27:44.589+01:00  INFO 20012 --- [productrestapi] [RMI TCP Connection(5)-127.0.0.1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-05-22T12:27:44.599+01:00  INFO 20012 --- [productrestapi] [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T12:27:44.606+01:00  INFO 20012 --- [productrestapi] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-22T12:27:44.652+01:00  INFO 20012 --- [productrestapi] [RMI TCP Connection(5)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-22T12:27:49.605+01:00  INFO 18624 --- [productrestapi] [main] com.mahesh.ProductrestapiApplication     : Starting ProductrestapiApplication using Java 17.0.11 with PID 18624 (C:\Users\anil bakkachetti\OneDrive\Desktop\java_springboot_learning\productrestapi\target\classes started by anil bakkachetti in C:\Users\anil bakkachetti\OneDrive\Desktop\java_springboot_learning\productrestapi)
+2024-05-22T12:27:49.610+01:00  INFO 18624 --- [productrestapi] [main] com.mahesh.ProductrestapiApplication     : No active profile set, falling back to 1 default profile: "default"
+2024-05-22T12:27:51.232+01:00  INFO 18624 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-22T12:27:51.401+01:00  INFO 18624 --- [productrestapi] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 148 ms. Found 1 JPA repository interface.
+2024-05-22T12:27:52.851+01:00  WARN 18624 --- [productrestapi] [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2024-05-22T12:27:52.907+01:00  INFO 18624 --- [productrestapi] [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2024-05-22T12:27:52.909+01:00  INFO 18624 --- [productrestapi] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3192 ms
+2024-05-22T12:27:53.282+01:00  INFO 18624 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-22T12:27:54.112+01:00  INFO 18624 --- [productrestapi] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55296b50
+2024-05-22T12:27:54.120+01:00  INFO 18624 --- [productrestapi] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-22T12:27:54.250+01:00  INFO 18624 --- [productrestapi] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-05-22T12:27:54.454+01:00  INFO 18624 --- [productrestapi] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-05-22T12:27:54.580+01:00  INFO 18624 --- [productrestapi] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-05-22T12:27:55.238+01:00  INFO 18624 --- [productrestapi] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-05-22T12:27:57.743+01:00  INFO 18624 --- [productrestapi] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-05-22T12:27:57.752+01:00  INFO 18624 --- [productrestapi] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T12:27:58.338+01:00  WARN 18624 --- [productrestapi] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-22T12:27:59.269+01:00  INFO 18624 --- [productrestapi] [main] io.undertow                              : starting server: Undertow - 2.3.12.Final
+2024-05-22T12:27:59.292+01:00  INFO 18624 --- [productrestapi] [main] org.xnio                                 : XNIO version 3.8.8.Final
+2024-05-22T12:27:59.318+01:00  INFO 18624 --- [productrestapi] [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.8.Final
+2024-05-22T12:27:59.434+01:00  INFO 18624 --- [productrestapi] [main] org.jboss.threads                        : JBoss Threads version 3.5.0.Final
+2024-05-22T12:27:59.571+01:00  INFO 18624 --- [productrestapi] [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port 8080 (http) with context path '/prodapi'
+2024-05-22T12:27:59.587+01:00  INFO 18624 --- [productrestapi] [main] com.mahesh.ProductrestapiApplication     : Started ProductrestapiApplication in 10.978 seconds (process running for 12.841)
+2024-05-22T12:28:14.343+01:00  INFO 18624 --- [productrestapi] [XNIO-1 task-2] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-22T12:28:14.345+01:00  INFO 18624 --- [productrestapi] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-05-22T12:28:14.349+01:00  INFO 18624 --- [productrestapi] [XNIO-1 task-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-05-22T12:28:14.532+01:00  INFO 18624 --- [productrestapi] [XNIO-1 task-2] c.m.controller.ProductRestController     : finding product by ID:1
+2024-05-22T12:45:09.638+01:00  INFO 18624 --- [productrestapi] [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-05-22T12:45:09.648+01:00  INFO 18624 --- [productrestapi] [RMI TCP Connection(21)-127.0.0.1] io.undertow                              : stopping server: Undertow - 2.3.12.Final
+2024-05-22T12:45:09.658+01:00  INFO 18624 --- [productrestapi] [RMI TCP Connection(21)-127.0.0.1] io.undertow.servlet                      : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-05-22T12:45:09.663+01:00  INFO 18624 --- [productrestapi] [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-22T12:45:09.670+01:00  INFO 18624 --- [productrestapi] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-22T12:45:09.706+01:00  INFO 18624 --- [productrestapi] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
